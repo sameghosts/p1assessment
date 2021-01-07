@@ -17,7 +17,7 @@ let resData;
 let checkData = () =>{
   if(disData < 0){
     document.getElementById("displayData").style.color = "red";
-  } else if(disData >0){
+  } else if(disData >=0){
     document.getElementById("displayData").style.color = "black";
   }
 }
