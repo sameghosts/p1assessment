@@ -1,0 +1,50 @@
+body {
+  display: grid;
+  grid-template-areas: "display"
+                        "formz";
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
+#display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas: "addButton submitText subButton";
+}
+#addButton {
+  color: grey;
+  background-color: white;
+  font-size: 50px;
+  border-radius: 8px;
+  padding: 25px;
+}
+#addButton:hover{
+  color: white;
+  background-color: grey;
+  font-size: 50px;
+  border-radius: 8px;
+}
+
+#subButton {
+  color: grey;
+  background-color: white;
+  font-size: 50px;
+  border-radius: 8px;
+  padding: 25px;
+}
+#subButton:hover{
+  color: white;
+  background-color: grey;
+  font-size: 50px;
+  border-radius: 8px;
+}
+#submitText{
+  color: grey;
+  font-size: 50px;
+}
+
+#displayData{
+  color: black;
+}
